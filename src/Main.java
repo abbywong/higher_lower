@@ -2,7 +2,7 @@
 public class Main {
     public static void main(String[] args) {
         Answerer gameMaster = new Answerer();
-        Guesser player = new Guesser();
+        Guesser player = new TerribleRandomGuesser();
         ResultType res = ResultType.HIGHER;
         while (res != ResultType.CORRECT) {
             int guess = player.askGuess();
