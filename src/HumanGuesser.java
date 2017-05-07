@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class HumanGuesser implements Guesser {
     @Override
-    public int askGuess() {
+    public int askGuess(ResultType res) {
         System.out.println("pls input one answer");
         Scanner in = new Scanner(System.in);
         int num = in.nextInt();

@@ -1,4 +1,4 @@
 
 public interface Guesser {
-    int askGuess();
+    int askGuess(ResultType res);
 }

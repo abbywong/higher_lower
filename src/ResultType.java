@@ -2,5 +2,6 @@
 public enum ResultType {
     LOWER,
     HIGHER,
-    CORRECT
+    CORRECT,
+    IS_FIRST
 }
