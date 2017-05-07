@@ -1,10 +1,10 @@
 import java.util.Random;
 
 public class TerribleRandomGuesser implements Guesser {
+    private Random rand = new Random();
+
     @Override
     public int askGuess() {
-        Random rand = new Random();
-        int guessNumber = rand.nextInt(1000);
-        return guessNumber;
+        return rand.nextInt(1000);
     }
 }
